@@ -6,7 +6,6 @@ import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
 import javax.persistence.Id;
 import javax.persistence.Table;
-
 @Table(name = "FRIENDS")
 @Entity
 public class Friend {
@@ -47,7 +46,7 @@ public class Friend {
 	public int hashCode() {
 		return Objects.hash(fname, id);
 	}
-
+//TEST
 	@Override
 	public boolean equals(Object obj) {
 		if (this == obj)
