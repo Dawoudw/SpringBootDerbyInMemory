@@ -1,0 +1,64 @@
+----------------------------------------------------------------
+Tue Aug 31 01:11:14 EDT 2021:
+Booting Derby version The Apache Software Foundation - Apache Derby - 10.14.2.0 - (1828579): instance a816c00e-017b-9a9e-5957-00000bc92928 
+on database directory memory:/Volumes/Data01/Work/Eclipse-workspace/SPRING_JDBC/d483b3a3-d3ef-45e5-9de0-f23539774a06 with class loader sun.misc.Launcher$AppClassLoader@764c12b6 
+Loaded from file:/Users/Admin/.m2/repository/org/apache/derby/derby/10.14.2.0/derby-10.14.2.0.jar
+java.vendor=Oracle Corporation
+java.runtime.version=1.8.0_301-b09
+user.dir=/Volumes/Data01/Work/Eclipse-workspace/SPRING_JDBC
+os.name=Mac OS X
+os.arch=x86_64
+os.version=10.16
+derby.system.home=null
+Database Class Loader started - derby.database.classpath=''
+----------------------------------------------------------------
+Tue Aug 31 01:14:09 EDT 2021:
+Shutting down instance a816c00e-017b-9a9e-5957-00000bc92928 on database directory memory:/Volumes/Data01/Work/Eclipse-workspace/SPRING_JDBC/d483b3a3-d3ef-45e5-9de0-f23539774a06 with class loader sun.misc.Launcher$AppClassLoader@764c12b6 
+----------------------------------------------------------------
+Tue Aug 31 01:14:10 EDT 2021:
+Booting Derby version The Apache Software Foundation - Apache Derby - 10.14.2.0 - (1828579): instance 0d0600d0-017b-9a9e-5957-00000bc92928 
+on database directory memory:/Volumes/Data01/Work/Eclipse-workspace/SPRING_JDBC/4b77611a-8798-44fe-aacb-de62d867f0e0 with class loader sun.misc.Launcher$AppClassLoader@764c12b6 
+Loaded from file:/Users/Admin/.m2/repository/org/apache/derby/derby/10.14.2.0/derby-10.14.2.0.jar
+java.vendor=Oracle Corporation
+java.runtime.version=1.8.0_301-b09
+user.dir=/Volumes/Data01/Work/Eclipse-workspace/SPRING_JDBC
+os.name=Mac OS X
+os.arch=x86_64
+os.version=10.16
+derby.system.home=null
+Database Class Loader started - derby.database.classpath=''
+----------------------------------------------------------------
+Tue Aug 31 01:14:20 EDT 2021:
+Shutting down instance 0d0600d0-017b-9a9e-5957-00000bc92928 on database directory memory:/Volumes/Data01/Work/Eclipse-workspace/SPRING_JDBC/4b77611a-8798-44fe-aacb-de62d867f0e0 with class loader sun.misc.Launcher$AppClassLoader@764c12b6 
+----------------------------------------------------------------
+Tue Aug 31 01:14:21 EDT 2021:
+Booting Derby version The Apache Software Foundation - Apache Derby - 10.14.2.0 - (1828579): instance 3213c186-017b-9a9e-5957-00000bc92928 
+on database directory memory:/Volumes/Data01/Work/Eclipse-workspace/SPRING_JDBC/46b5dd7c-6e6c-43e2-8091-4e3e9c1f42cf with class loader sun.misc.Launcher$AppClassLoader@764c12b6 
+Loaded from file:/Users/Admin/.m2/repository/org/apache/derby/derby/10.14.2.0/derby-10.14.2.0.jar
+java.vendor=Oracle Corporation
+java.runtime.version=1.8.0_301-b09
+user.dir=/Volumes/Data01/Work/Eclipse-workspace/SPRING_JDBC
+os.name=Mac OS X
+os.arch=x86_64
+os.version=10.16
+derby.system.home=null
+Database Class Loader started - derby.database.classpath=''
+----------------------------------------------------------------
+Tue Aug 31 01:15:35 EDT 2021:
+Shutting down instance 3213c186-017b-9a9e-5957-00000bc92928 on database directory memory:/Volumes/Data01/Work/Eclipse-workspace/SPRING_JDBC/46b5dd7c-6e6c-43e2-8091-4e3e9c1f42cf with class loader sun.misc.Launcher$AppClassLoader@764c12b6 
+----------------------------------------------------------------
+Tue Aug 31 01:15:36 EDT 2021:
+Booting Derby version The Apache Software Foundation - Apache Derby - 10.14.2.0 - (1828579): instance 4368c243-017b-9a9e-5957-00000bc92928 
+on database directory memory:/Volumes/Data01/Work/Eclipse-workspace/SPRING_JDBC/9cbca430-bf54-4f4d-a19b-3f67afabb4c2 with class loader sun.misc.Launcher$AppClassLoader@764c12b6 
+Loaded from file:/Users/Admin/.m2/repository/org/apache/derby/derby/10.14.2.0/derby-10.14.2.0.jar
+java.vendor=Oracle Corporation
+java.runtime.version=1.8.0_301-b09
+user.dir=/Volumes/Data01/Work/Eclipse-workspace/SPRING_JDBC
+os.name=Mac OS X
+os.arch=x86_64
+os.version=10.16
+derby.system.home=null
+Database Class Loader started - derby.database.classpath=''
+----------------------------------------------------------------
+Tue Aug 31 01:15:37 EDT 2021:
+Shutting down instance 4368c243-017b-9a9e-5957-00000bc92928 on database directory memory:/Volumes/Data01/Work/Eclipse-workspace/SPRING_JDBC/9cbca430-bf54-4f4d-a19b-3f67afabb4c2 with class loader sun.misc.Launcher$AppClassLoader@764c12b6 
