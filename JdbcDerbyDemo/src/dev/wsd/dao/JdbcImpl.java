@@ -39,9 +39,9 @@ public class JdbcImpl {
 		PreparedStatement ps = null;
 		ResultSet rs = null;
 		try {
-			ps = conn.prepareStatement("SELECT * FROM FRIENDS WHERE ID=?");
+			ps = conn.prepareStatement("SELECT * FROM FRIENDS WHERE id = ?");
 
-			ps.setInt(id, id);
+			ps.setInt(1, id);
 			rs = ps.executeQuery();
 			while (rs.next()) {
 				f.setId(rs.getInt("ID"));

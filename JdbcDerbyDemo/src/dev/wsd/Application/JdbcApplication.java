@@ -13,7 +13,7 @@ public class JdbcApplication {
 	public static void main(String... args) {
 
 		try {
-			System.out.println(new JdbcImpl().getFriend(1).toString());
+			System.out.println(new JdbcImpl().getFriend(2).toString());
 		} catch (InstantiationException | IllegalAccessException | ClassNotFoundException | SQLException e) {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
