@@ -39,7 +39,8 @@ public class JdbcImpl {
 		 * not the driver supports a given level.
 		 */
 		try {
-			Class.forName(driver).newInstance();
+			if (conn == null || conn.isClosed())
+				Class.forName(driver).newInstance();
 			conn = DriverManager.getConnection("jdbc:derby://localhost:1527/wsdDB");
 		} catch (InstantiationException | IllegalAccessException | ClassNotFoundException | SQLException e) {
 			// TODO Auto-generated catch block

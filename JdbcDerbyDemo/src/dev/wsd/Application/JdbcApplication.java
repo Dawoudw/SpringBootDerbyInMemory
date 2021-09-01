@@ -13,24 +13,25 @@ public class JdbcApplication {
 	public static void main(String... args) {
 
 		try {
-
-			/*
-			  System.out.println(new JdbcImpl().addFriend(new Friend(11,"Mohamed DAWOUD"))); 
-			  System.out.println(new JdbcImpl().addFriend(new Friend(12, "  DAWOUD")));
-			 */
-			// System.out.println(new JdbcImpl().getFriend(3).toString());
-			// System.out.println(new JdbcImpl().getAllFriends());
-
 			JdbcImpl jdbc = new JdbcImpl();
-			/*
-			 * List<Friend> friends = jdbc.getAllFriends(); friends.get(0).setName("Omar");
-			 * friends.get(1).setName("Ali"); friends.get(2).setName("Belal");
-			 * friends.get(3).setName("Sohaib"); jdbc.batchUpdateFriends(friends);
-			 * System.out.println(jdbc.getAllFriends());
-			 */
+//			  System.out.println(jdbc.addFriend(new Friend(8,"Mohamed DAWOUD"))); 
+//			  System.out.println(jdbc.addFriend(new Friend(9,"Mohamed DAWOUD"))); 
+//			  System.out.println(jdbc.addFriend(new Friend(10,"Mohamed DAWOUD"))); 
+//			  System.out.println(jdbc.addFriend(new Friend(11,"Mohamed DAWOUD"))); 
+//			  System.out.println(jdbc.addFriend(new Friend(12, "DAWOUD")));
 
-			List<Friend> delLst = jdbc.getAllFriends().subList(7, 11);
-			jdbc.batchDeleteFriends(delLst);
+			// System.out.println(jdbc.getFriend(3).toString());
+			// System.out.println(jdbc.getAllFriends());
+			
+			/* Batch Update */
+			List<Friend> friends = jdbc.getAllFriends();
+			friends.get(6).setName("Mohamed");
+			friends.get(7).setName("Dawoud");
+			jdbc.batchUpdateFriends(friends);
+		
+			/* Batch Delete */
+//			List<Friend> delLst = jdbc.getAllFriends().subList(7, 11);
+//			jdbc.batchDeleteFriends(delLst);
 			System.out.println(jdbc.getAllFriends());
 
 		} catch (Exception e) {
