@@ -4,16 +4,18 @@ import com.hubberspot.mockito.behavior.verification.Book;
 import com.hubberspot.mockito.behavior.verification.BookRepository;
 import com.hubberspot.mockito.behavior.verification.BookRequest;
 import com.hubberspot.mockito.behavior.verification.BookService;
-import org.junit.jupiter.api.Test;
-import org.junit.jupiter.api.extension.ExtendWith;
+
+import org.junit.Test;
+import org.junit.runner.RunWith;
 import org.mockito.*;
-import org.mockito.junit.jupiter.MockitoExtension;
+import org.mockito.junit.MockitoJUnitRunner;
+ 
 
 import java.time.LocalDate;
 
 import static org.mockito.Mockito.*;
 
-@ExtendWith(MockitoExtension.class)
+@RunWith(MockitoJUnitRunner.class)
 public class BookServiceTest {
 	
 	@InjectMocks

@@ -1,13 +1,14 @@
 package com.hubberspot.mockito.test_doubles.mock;
 
-import org.junit.jupiter.api.Test;
  
+ 
+import org.junit.Test;
 import org.mockito.Mockito;
  
 
 import java.time.LocalDate;
 
-import static org.junit.jupiter.api.Assertions.assertEquals;
+ 
 
 
 public class MockTest {

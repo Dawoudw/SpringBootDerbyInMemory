@@ -1,23 +1,23 @@
 package com.hubberspot.mockito.bdd.stubbing;
 
-import org.junit.jupiter.api.DisplayName;
-import org.junit.jupiter.api.Test;
-import org.junit.jupiter.api.extension.ExtendWith;
+ 
+import org.junit.Test;
+import org.junit.runner.RunWith;
 import org.mockito.InjectMocks;
 import org.mockito.Mock;
-import org.mockito.junit.jupiter.MockitoExtension;
+import org.mockito.junit.MockitoJUnitRunner;
 
 import java.time.LocalDate;
 import java.util.ArrayList;
 import java.util.List;
 
 import static org.assertj.core.api.BDDAssertions.then;
-import static org.junit.jupiter.api.Assertions.assertEquals;
+import static org.junit.Assert.assertEquals;
 import static org.mockito.BDDMockito.given;
 import static org.mockito.Mockito.mock;
 import static org.mockito.Mockito.when;
 
-@ExtendWith(MockitoExtension.class)
+@RunWith(MockitoJUnitRunner.class)
 public class StubTest {
 	
 	@InjectMocks
@@ -45,7 +45,7 @@ public class StubTest {
 	}
 	
 	@Test
-	@DisplayName("Given - New books, When - Get new books with applied discount method is called, Then - New books with applied discount is returned")
+	//@DisplayName("Given - New books, When - Get new books with applied discount method is called, Then - New books with applied discount is returned")
 	public void test_Given_NewBooks_When_GetNewBooksWithAppliedDiscountIsCalled_Then_NewBooksWithAppliedDiscountIsReturned() {
 		// Arrange - Given
 		Book book1 = new Book("1234", "Mockito In Action", 500, LocalDate.now());
