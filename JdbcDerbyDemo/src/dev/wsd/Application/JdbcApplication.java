@@ -25,7 +25,7 @@ public class JdbcApplication {
 			
 			/* Batch Update */
 			List<Friend> friends = jdbc.getAllFriends();
-			friends.get(6).setName("Mohamed");
+			friends.get(6).setName("Mohamed Ahmed");
 			friends.get(7).setName("Dawoud");
 			jdbc.batchUpdateFriends(friends);
 		
